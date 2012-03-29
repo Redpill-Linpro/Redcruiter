@@ -1,9 +1,12 @@
 <?php
 
-class Model
+abstract class Model
 {
+
     public function save()
     {
-        
+        global $db;
+
+        $db->save($this);
     }
 }
