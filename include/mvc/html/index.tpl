@@ -4,6 +4,6 @@
 <title>Test application</title>
 </head>
 <body>
-<p>{$HELLO} dfsdfs dfssdfs</p>
+<p>{$HELLO}</p>
 </body>
 </html>
