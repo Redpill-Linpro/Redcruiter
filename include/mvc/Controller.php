@@ -30,6 +30,20 @@ class Controller
         $this->view->process();
     }
 
+    final public function loadEntity()
+    {
+        $class = ucfirst(substr($this->module,0,-1));
+        $path = "modules/$this->module/$class.php";
+        if(!file_exists($path) && !is_subclass_of($class, 'Model'))
+            return;
+
+        require_once $path;
+        $this->entity = new $class();
+
+        if(isset($_REQUEST['record']))
+            $this->entity->retrieve($_REQUEST['record']);
+    }
+
     public function action_index()
     {
         $this->view->display();

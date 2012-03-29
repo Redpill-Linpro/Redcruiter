@@ -25,6 +25,7 @@ class Application
 
         $this->controller = $this->loadController();
         $this->controller->setupView($this->action);
+        $this->controller->loadEntity();
 
         if(method_exists($this->controller, 'action_'.$this->action))
             $this->controller->{'action_'.$this->action}();
