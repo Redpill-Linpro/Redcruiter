@@ -1,22 +1,24 @@
-"contacts" : { 
+{
+    "Contacts" : { 
 
-    "1" : {
-         "firstName": "John",
-         "lastName": "Smith",
-         "age": 25,
-         "email" : "john.smith@example.com"
+        "1" : {
+             "firstName": "John",
+             "lastName": "Smith",
+             "age": 25,
+             "email" : "john.smith@example.com"
 
-    },
-    "2" : {
-         "firstName": "Tommy",
-         "lastName": "Shift",
-         "age": 25,
-         "email" : "tommy.shift@example.com"
-    },
-    "3" : {
-         "firstName": "Lisa",
-         "lastName": "Larsson",
-         "age": 25,
-         "email" : "lisa.larsson@example.com"
-    },
+        },
+        "2" : {
+             "firstName": "Tommy",
+             "lastName": "Shift",
+             "age": 25,
+             "email" : "tommy.shift@example.com"
+        },
+        "3" : {
+             "firstName": "Lisa",
+             "lastName": "Larsson",
+             "age": 25,
+             "email" : "lisa.larsson@example.com"
+        }
+    }
 }

@@ -27,6 +27,7 @@ class Controller
         }
 
         $this->view->initSmarty();
+        $this->view->process();
     }
 
     public function action_index()

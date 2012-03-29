@@ -22,10 +22,13 @@ class View
         $this->smarty->setCacheDir('files/smarty/cache/');
     }
 
-    public function display()
+    public function process()
     {
         $this->smarty->assign('HELLO','Hello World');
-        $this->smarty->display($this->html);
+    }
 
+    public function display()
+    {
+        $this->smarty->display($this->html);
     }
 }
