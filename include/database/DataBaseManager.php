@@ -2,11 +2,11 @@
 
 class DataBaseMocker
 {
-    private $db_host;
+    private $database;
 
     public function __construct()
     {
-        $this->db_host = 'include/database.json';
+        $this->database = 'files/db/database.json';
     }
 
     public function getById($id)
@@ -26,7 +26,7 @@ class DataBaseMocker
 
     public function update()
     {
-        
+
     }
 
     public function delete()
