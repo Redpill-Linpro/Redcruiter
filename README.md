@@ -4,8 +4,6 @@ Is an small singlepoint entry application framework written in PHP, relying on S
 purpose to see if an candidate have an basic understanding of OOP PHP and patterns such as MVC. The framework in its 
 current state makes use of an file-based JSON data-store to ensure flexibility in creation of candidate tests.
 
-## Folder structure
-
 ## Todo
 
 Your job is to write an simple address book application based on the framework. 
