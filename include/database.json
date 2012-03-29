@@ -1,0 +1,57 @@
+"contacts" : { 
+
+    "1" : {
+         "firstName": "John",
+         "lastName": "Smith",
+         "age": 25,
+         "email" : "john.smith@example.com"
+         "address": {
+             "streetAddress": "21 2nd Street",
+             "city": "New York",
+             "state": "NY",
+             "postalCode": "10021"
+         },
+         "phoneNumber": [
+             { "type": "home", "number": "212 555-1234" },
+             { "type": "fax", "number": "646 555-4567" }
+         ],
+         "newSubscription": false,
+         "companyName": null
+    },
+    "2" : {
+         "firstName": "Tommy",
+         "lastName": "Shift",
+         "age": 25,
+         "email" : "tommy.shift@example.com"
+         "address": {
+             "streetAddress": "21 2nd Street",
+             "city": "New York",
+             "state": "NY",
+             "postalCode": "10021"
+         },
+         "phoneNumber": [
+             { "type": "home", "number": "212 555-1234" },
+             { "type": "fax", "number": "646 555-4567" }
+         ],
+         "newSubscription": false,
+         "companyName": null
+    },
+    "3" : {
+         "firstName": "Lisa",
+         "lastName": "Larsson",
+         "age": 25,
+         "email" : "lisa.larsson@example.com"
+         "address": {
+             "streetAddress": "21 2nd Street",
+             "city": "New York",
+             "state": "NY",
+             "postalCode": "10021"
+         },
+         "phoneNumber": [
+             { "type": "home", "number": "212 555-1234" },
+             { "type": "fax", "number": "646 555-4567" }
+         ],
+         "newSubscription": false,
+         "companyName": null
+    },
+}
