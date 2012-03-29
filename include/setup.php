@@ -8,3 +8,8 @@ require_once 'include/mvc/Model.php';
 
 $config = array('default_action' => 'index', 'database' => 'files/db/database.json');
 $db = new DataBaseManager();
+
+function get_entity_name($module)
+{
+    return ucfirst(substr($module,0,-1));
+}

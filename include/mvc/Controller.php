@@ -32,12 +32,17 @@ class Controller
 
     final public function loadEntity()
     {
-        $class = ucfirst(substr($this->module,0,-1));
+        $class = get_entity_name($this->module);
         $path = "modules/$this->module/$class.php";
-        if(!file_exists($path) && !is_subclass_of($class, 'Model'))
+
+        if(!file_exists($path))
             return;
 
         require_once $path;
+
+        if(!is_subclass_of($class, 'Model'))
+            return;
+
         $this->entity = new $class();
 
         if(isset($_REQUEST['record']))

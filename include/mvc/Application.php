@@ -35,7 +35,7 @@ class Application
 
     private function loadController()
     {
-        $class = 'Controller'.ucfirst($this->module);
+        $class = get_entity_name($this->module).'Controller';
         $path = "modules/$this->module/$class.php";
 
         if(!file_exists($path))
