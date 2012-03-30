@@ -53,10 +53,16 @@ class DataBaseManager
         $data_set = $this->get();
         $data_set->$module->$id = $object;
         $this->put($data_set);
+        
+        return $id;
     }
 
-    public function update($module, Model $object, $id)
+    public function update($module, Model $object)
     {
+        $id = $object->id;
+        
+        unset($object->id);
+            
         $data_set = $this->get();
 
         if(!isset($data_set->$module->$id))
