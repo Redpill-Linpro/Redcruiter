@@ -1,6 +1,7 @@
 <?php
 /**
- * Copyright 2011 Redpill Linpro AB.
+ * @copyright 2011 Redpill Linpro AB.
+ * @author Jonas Odencrants
  * 
  * This file is part of Redcruiter.
  *
