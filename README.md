@@ -6,7 +6,7 @@ current state makes use of an file-based JSON data-store to ensure flexibility i
 
 ## Todo
 
-Your job is to write an simple address book application based on the framework. 
+Your job is to write an simple address book application based around the framework. 
 
  * There should exist an view where the user are able to display all existing contacts, and the properties
    first_name last_name, email, of these existing contacts. 
