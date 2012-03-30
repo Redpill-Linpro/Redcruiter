@@ -36,3 +36,22 @@ Your job is to write an simple address book application based around the framewo
 
  * It would be considered not in your favour solving the tasks by accessing the file-based database from any 
    other other than the DataBaseManager.
+
+
+ > Copyright 2011 Redpill Linpro AB.
+ >
+ > Author(s): Jonas Odencrants
+ > 
+ > This file is part of Redcruiter.
+ >
+ > Redcruiter is free software: you can redistribute it and/or modify it under
+ > the terms of the GNU General Public License as published by the Free Software
+ > Foundation, either version 3 of the License, or (at your option) any later
+ > version.
+ >
+ > Redcruiter is distributed in the hope that it will be useful, but WITHOUT ANY
+ > WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
+ > PARTICULAR PURPOSE.  See the GNU General Public License for more details.
+ >
+ > You should have received a copy of the GNU General Public License along with
+ > Redcruiter. If not, see <http://www.gnu.org/licenses/>.
