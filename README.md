@@ -32,6 +32,13 @@ Your job is to write an simple address book application based around the framewo
 
  * There should exist an method for the user to create and add new Contacts to the address book.
 
+### Diclaimer 
+
+This framework does not represent the best of architecture and it does contain flaws, extra points will be awarded
+for explaning what is an flaw, and why when you react on fixing things within the core of framework. Strong recommendation: 
+Even if its ok, it would be a really bad idea that for any reason use this for anything you care about, without first 
+fixing the flaws of this framework and applying for an new job.
+
 ### Hints
 
  * It would be considered not in your favour solving the tasks by accessing the file-based database from any 
